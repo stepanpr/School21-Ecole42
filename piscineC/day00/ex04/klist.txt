@@ -1,0 +1,6 @@
+Credentials cache: API:11151
+        Principal: emabel@21-SCHOOL.RU
+
+  Issued                Expires               Principal
+Jul 29 13:27:41 2019  Jul 29 23:27:41 2019  krbtgt/21-SCHOOL.RU@21-SCHOOL.RU
+Jul 29 16:13:34 2019  Jul 29 23:27:41 2019  host/vogsphere.21-school.ru@21-SCHOOL.RU
