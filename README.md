@@ -1,3 +1,3 @@
-# 21school
+# 21school (42school)
 21school / moscow
 
