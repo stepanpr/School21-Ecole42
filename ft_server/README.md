@@ -1,6 +1,6 @@
 ## ft_server
 
-docker build . -t ft_server (сборка контейнера)
+`docker build . -t ft_server` (сборка контейнера)
 
 docker run -it -p 80:80 -p 443:443 ft_server (интерактивный режим)
 
