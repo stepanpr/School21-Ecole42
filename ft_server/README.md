@@ -6,5 +6,4 @@
 
 `docker run -td -p 80:80 -p 443:443 ft_server` фоновый режим
 
-в режиме *mysql*
-`show grants for 'emabel_user'@'localhost;` показать текущиезначения привелегий пользователя
+в режиме *mysql* `show grants for 'emabel_user'@'localhost;` показать текущиезначения привелегий пользователя
