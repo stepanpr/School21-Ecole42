@@ -1,2 +1,3 @@
 # cub3d
-### graphic project *(for linux)*
+### graphic project 
+*(for linux)*
