@@ -1,0 +1,51 @@
+apiVersion: v1
+kind: Service
+# имя сервиса и лейбл
+metadata:
+  name: grafana
+  labels:
+    app: grafana
+  annotations:
+    metallb.universe.tf/allow-shared-ip: wp
+spec:
+  externalTrafficPolicy: Cluster
+  type: LoadBalancer
+  loadBalancerIP: 192.168.99.100
+   # с каким подом работает сервис
+  selector:
+    app: grafana
+  ports:
+    - port: 3000 # порт в LoadBalancer
+      name: http
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+# установка deploy-имени и лейбла
+metadata:
+  name: grafana
+  labels:
+    app: grafana
+spec:
+  # с каким подом работает развертывание
+  selector:
+    matchLabels:
+      app: grafana
+  # перед созданием нового пода, старый будет удален
+  strategy:
+    type: Recreate
+  replicas: 1
+  # создание пода
+  template:
+    metadata:
+      labels:
+        app: grafana
+    spec:
+      # под базируется на контейнере
+      containers:
+        - name: grafana
+          image: grafana_i:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 3000
