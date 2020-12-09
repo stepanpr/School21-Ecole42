@@ -1,1 +1,6 @@
-minishell
+## minishell
+
+`make`
+
+`./minishell` run
+
