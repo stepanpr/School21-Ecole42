@@ -1,6 +1,7 @@
 # philosophers
 *dining philosophers problem - three versions (run `make` to compile)*
 
+***
 #### tools used:
 *philo_one* - threads, mutexes (<pthread.h>)  
 *philo_two* - threads, semaphors (<pthread.h>, <semaphore.h>)  
