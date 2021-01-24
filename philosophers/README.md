@@ -1,11 +1,9 @@
 # philosophers
 *Kubernetes/minikube/Docker/Nginx/MySQL/Grafana/Metallb/FTPS/phpMyAdmin/Wordpress/InfluxDB* (`setup.sh` to install)
 
-### Используемые инструменты:
+### tools used:
 *philo_one* - threads, mutexes (<pthread.h>)
-
 *philo_two* - threads, semaphors (<pthread.h>, <semaphore.h>)
-
 *philo_three* - forks, semaphors (<unistd.h>, <semaphore.h>, <sys/wait.h>, <signal.h>) 
 
  
