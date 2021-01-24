@@ -1,4 +1,4 @@
-# philosophers*(dining philosophers problem)* - three versions
+# philosophers #### *(dining philosophers problem)* - three versions
 *dining philosophers problem* (run `make` to compile)
 
 #### tools used:
