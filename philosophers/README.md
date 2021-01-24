@@ -2,11 +2,9 @@
 *dining philosophers problem - three versions (run `make` to compile)*
 
 #### tools used:
-*philo_one* - threads, mutexes (<pthread.h>)
-
-*philo_two* - threads, semaphors (<pthread.h>, <semaphore.h>)
-
-*philo_three* - forks, semaphors (<unistd.h>, <semaphore.h>, <sys/wait.h>, <signal.h>)
+*philo_one* - threads, mutexes (<pthread.h>)  
+*philo_two* - threads, semaphors (<pthread.h>, <semaphore.h>)  
+*philo_three* - forks, semaphors (<unistd.h>, <semaphore.h>, <sys/wait.h>, <signal.h>)  
 
 ---
 
@@ -19,9 +17,9 @@
  5. `[number_of_times_each_philosopher_must_eat]` - количество приемов пищи
  ---
 ### examples:
- philo_one 5 800 200 200
- philo_one 5 800 200 200 7
- philo_two 4 310 200 100
- philo_three 4 410 200 200
+ philo_one 5 800 200 200  
+ philo_one 5 800 200 200 7  
+ philo_two 4 310 200 100  
+ philo_three 4 410 200 200  
 
 
