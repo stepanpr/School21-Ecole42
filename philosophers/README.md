@@ -2,12 +2,12 @@
 *Kubernetes/minikube/Docker/Nginx/MySQL/Grafana/Metallb/FTPS/phpMyAdmin/Wordpress/InfluxDB*
 
 ### Используемые инструменты:
-philo_one - threads, mutexes (<pthread.h>)
-philo_two - threads, semaphors (<pthread.h>, <semaphore.h>)
-philo_three - forks, semaphors (<unistd.h>, <semaphore.h>, <sys/wait.h>, <signal.h>) 
+*philo_one* - threads, mutexes (<pthread.h>)
+*philo_two* - threads, semaphors (<pthread.h>, <semaphore.h>)
+*philo_three* - forks, semaphors (<unistd.h>, <semaphore.h>, <sys/wait.h>, <signal.h>) 
  `setup.sh` to install  
  
- ## arguments:
+### arguments:
  1. `[number_of_philosophers]` - количество философов
  2. `[time_to_die]` - время в ms до смерти
  3. `[time_to_eat]` - время в ms на прием пищи
@@ -15,7 +15,7 @@ philo_three - forks, semaphors (<unistd.h>, <semaphore.h>, <sys/wait.h>, <signal
  optional argument:
  5. `[number_of_times_each_philosopher_must_eat]` - количество приемов пищи
  
- ## examples:
+### examples:
  philo_one 5 800 200 200
  philo_one 5 800 200 200 7
  philo_two 4 310 200 100
