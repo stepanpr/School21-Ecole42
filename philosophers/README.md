@@ -1,5 +1,5 @@
-# philosophers #### *(dining philosophers problem)* - three versions
-*dining philosophers problem* (run `make` to compile)
+# philosophers
+*dining philosophers problem - three versions (run `make` to compile)*
 
 #### tools used:
 *philo_one* - threads, mutexes (<pthread.h>)
