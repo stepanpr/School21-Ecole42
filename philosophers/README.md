@@ -1,14 +1,13 @@
 # philosophers
-*dining philosophers problem - three versions (run `make` to compile)*
+*three versions of the implementation of the dining philosophers problem (run `make` to compile)*
+---
 
-***
 #### tools used:
 *philo_one* - threads, mutexes (<pthread.h>)  
 *philo_two* - threads, semaphors (<pthread.h>, <semaphore.h>)  
 *philo_three* - forks, semaphors (<unistd.h>, <semaphore.h>, <sys/wait.h>, <signal.h>)  
-
+***
 ---
-
 #### arguments:
  1. `[number_of_philosophers]` - количество философов
  2. `[time_to_die]` - время в ms до смерти
