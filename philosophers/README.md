@@ -15,10 +15,10 @@
  optional argument:
  5. `[number_of_times_each_philosopher_must_eat]` - количество приемов пищи
 ***
-### examples:
- philo_one 5 800 200 200  
- philo_one 5 800 200 200 7  
- philo_two 4 310 200 100  
- philo_three 4 410 200 200  
+#### examples:
+ `philo_one 5 800 200 200`  
+ `philo_one 5 800 200 200 7`  
+ `philo_two 4 310 200 100`  
+ `philo_three 4 410 200 200`  
 
 
