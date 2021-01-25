@@ -1,5 +1,5 @@
 # philosophers
-*three versions of the implementation of the dining philosophers problem (run `make` to compile)*
+###### three versions of the implementation of the dining philosophers problem (run `make` to compile)
 ***
 
 #### tools used:
