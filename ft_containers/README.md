@@ -14,4 +14,6 @@ containers created by the type of containers stl
  5. `[queue]` - контейнер адаптер
 ***
 #### examples:
- use `make` to compile tests  
+ use `make` to compile tests
+ then run `./ft_containers`
+ or `./ft_containers [container]`
