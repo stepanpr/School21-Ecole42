@@ -1,12 +1,10 @@
 # ft_containers
 ##### 
 ***
-containers created by the type of containers stl
 
 #### tools used:
-*philo_one* - threads, mutexes (<pthread.h>)  
-*philo_two* - threads, semaphors (<pthread.h>, <semaphore.h>)  
-*philo_three* - forks, semaphors (<unistd.h>, <semaphore.h>, <sys/wait.h>, <signal.h>)  
+containers created by the type of containers stl
+
 ***
 #### generated containers:
  1. `[vector]` - контейнер основанный на динамическом массиве
